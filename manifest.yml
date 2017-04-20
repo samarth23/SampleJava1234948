@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SampleJava1234948
+  host: SampleJava1234948
+  disk_quota: 1024M
+  services:
+  - Compose for MongoDB-vf
